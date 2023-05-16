@@ -8,6 +8,4 @@
 import BasicLayout from './layout/BasicLayout.vue'
 </script>
 
-<style scoped>
-@import url('./style/index.css');
-</style>
+<style scoped></style>
