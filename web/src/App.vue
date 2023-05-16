@@ -1,9 +1,13 @@
 <template>
-    <div>
+    <BasicLayout>
         <RouterView />
-    </div>
+    </BasicLayout>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import BasicLayout from './layout/BasicLayout.vue'
+</script>
 
-<style scoped></style>
+<style scoped>
+@import url('./style/index.css');
+</style>
